@@ -16,7 +16,7 @@ This repository contains a simple implementation of a neural network using numpy
         - [Gradient Descent, Predictions, and Accuracy](#gradient-descent-predictions-and-accuracy)
 4. [Neural Network Training](#neural-network-training-with-variable-hidden-layer-neurons)
 
-## 1. Dependencies
+## Dependencies
 
 Ensure you have the following Python libraries installed:
 
@@ -24,16 +24,16 @@ Ensure you have the following Python libraries installed:
 - Pandas
 - Matplotlib
 
-## 2. MINST Dataset
+## MINST Dataset
 
 The MINST dataset is read using the Pandas library. The training data is loaded from the CSV file located at [path]\train.csv.
 
-## 3. Neural Network
-### 3.1 Data Preparation
+## Neural Network
+### Data Preparation
 
 The dataset is processed using NumPy arrays for efficient mathematical computations. Data normalization is performed, and the dataset is split into training and testing sets.
 
-### 3.2 One-hidden Layer Model
+### One-hidden Layer Model
 
 Activation Functions
 
@@ -46,10 +46,10 @@ Parameters Initialization, Forward/Backward Propagations, and Parameters Updatin
 
 The neural network parameters, including weights and biases, are initialized, and forward/backward propagations are implemented. Gradient descent is used for parameter updates.
 
-### 3.3 Gradient Descent, Predictions, and Accuracy
+### Gradient Descent, Predictions, and Accuracy
 
 The training process involves gradient descent with a specified learning rate, and accuracy is calculated at regular intervals.
 
-## 4. Neural Network Training with Variable Hidden Layer Neurons
+## Neural Network Training with Variable Hidden Layer Neurons
 
 The neural network is trained with different hidden layer neuron configurations (8, 10, 16, 32, 64) for a specified number of iterations (400) and learning rate (0.10).
