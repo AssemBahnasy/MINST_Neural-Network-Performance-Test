@@ -24,9 +24,6 @@ Ensure you have the following Python libraries installed:
 - Pandas
 - Matplotlib
 
-```bash
-pip install numpy pandas matplotlib
-
 ## 2. MINST Dataset
 
 The MINST dataset is read using the Pandas library. The training data is loaded from the CSV file located at [path]\train.csv.
