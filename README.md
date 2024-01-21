@@ -39,8 +39,8 @@ Activation Functions
 
 Two activation functions are implemented:
 
-    - Rectified Linear Unit (ReLU)
-    - Softmax
+- Rectified Linear Unit (ReLU)
+- Softmax
 
 Parameters Initialization, Forward/Backward Propagations, and Parameters Updating
 
