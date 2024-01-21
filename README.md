@@ -32,7 +32,7 @@ The MINST dataset is read using the Pandas library. The training data is loaded 
 # Pandas library is used to read only the dataset 
 df = pd.read_csv(r"[path]\train.csv")
 df.head()
-
+```
 ## Neural Network
 ### Data Preparation
 - The dataset is processed using NumPy arrays for efficient mathematical computations. 
